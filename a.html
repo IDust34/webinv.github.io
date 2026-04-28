@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Invitación de Cumpleaños - Manuel</title>
+    <!-- Google Fonts y estilos base -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Add to Calendar button CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2.7.2/assets/css/atcb.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #1a1a1a;
+        }
+        
+        .font-sans {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        /* Hero section corregida */
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            min-height: 600px;
+            background-color: #000;
+            overflow: hidden;
+        }
+        
+        .hero-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 90%;
+            max-width: 800px;
+            z-index: 2;
+        }
+        
+        /* Responsive para móviles */
+        @media (max-width: 768px) {
+            .hero-content .font-sans {
+                font-size: 1rem !important;
+            }
+            .hero-content .font-serif {
+                font-size: 3rem !important;
+            }
+            .hero-content h1 {
+                font-size: 4rem !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Contenedor principal -->
+<div style="max-width: 100vw; overflow-x: hidden; background-color: #1a1a1a;">
+
+    <!-- SECCIÓN HERO CORREGIDA -->
+    <div class="hero-section">
+        <img alt="Fondo 80 años Manuel" loading="lazy" src="img/asd.jpg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="font-sans" style="color: #bfdbfe; margin-bottom: 100px; font-size: 1.5rem; letter-spacing: 8px;">FIESTA DE CUMPLEAÑOS SORPRESA</p>
+            <h1 class="font-serif" style="color: #f1f5f9; font-size: 20rem; line-height: 1; margin-bottom: 50px;">80</h1>
+            <p class="font-sans" style="color: #bfdbfe; margin-bottom: 150px; font-size: 1.5rem;">En Honor A:</p>
+            <p class="charm-bold" style="color: #e0f2fe; font-style: italic; font-size: 5rem; margin-top: 0.5rem;"><strong>Manuel</strong></p>
+        </div>
+    </div>
+
+</div>
+
+
+   <!-- FRASE DIVERTIDA + FECHA CON GLOBOS DECORATIVOS -->
+<div style="background-color: #1a1a1a; padding: 4rem 1.5rem; position: relative; overflow: hidden;">
+    
+    <!-- Globos Izquierda -->
+    <!-- Ejemplo de globo decorativo usando imagen local -->
+<div style="position: absolute; left: 0; top: 0; z-index: 1; width: 30%; max-width: 250px;">
+    <img src="img/asd1.png" alt="globo" style="width: 100%; height: auto;">
+</div> 
+    <!-- Globos Derecha -->
+<div style="position: absolute; right: 0; top: 0; z-index: 1; width: 30%; max-width: 250px;">
+    <img src="img/asd2.png" alt="globo" style="width: 100%; height: auto;">
+</div>
+
+    <div style="max-width: 800px; margin: 0 auto; text-align: center; position: relative; z-index: 2;">
+        <h1 class="font-serif" style="color: #bfdbfe; margin-bottom: 1.5rem; font-size: 3rem;">Fecha</h1>
+        
+        <h4 class="font-sans" style="font-size: 1.65rem; color: #e1e4ea; font-weight: 400; line-height: 1.6;">
+            20 de Junio de 2026
+        </h4>
+        <h4 class="font-sans" style="font-size: 1.65rem; color: #e1e4ea; font-weight: 400; line-height: 1.6;">
+            5:00 PM - 10:00 PM
+        </h4>
+        <h4 class="font-sans" style="font-size: 1.55rem; color: #e1e4ea; font-weight: 400; line-height: 1.6;">
+            Comida: 6:00 PM - 7:00 PM
+        </h4>
+        <h4 class="font-sans" style="font-size: 1.4rem; color: #c4daff; font-weight: 500; margin-top: 1rem;">
+            (Llevar su consumo de bebidas)
+        </h4>
+        
+        <p class="font-serif" style="color: #60a5fa; font-size: 1.8rem; margin-top: 2rem;">
+            Salón Valle Luna
+        </p>
+    </div>
+</div>
+    <!-- POLAROID / FOTO -->
+    <div style="display: flex; justify-content: center; background-color: #1a1a1a; padding-bottom: 2rem;">
+        <div class="polaroid" style="background: white; max-width: 360px;">
+            <div class="polaroid-tape"></div>
+            <img alt="Foto Quique" 
+                 src=""
+                 style="width: 100%; height: auto; display: block; border-radius: 4px;">
+            <div class="font-serif" style="margin-top: 15px; text-align: center; font-size: 1.2rem; color: black;"></div>
+        </div>
+    </div>
+
+    <!-- MAPA Y UBICACIÓN -->
+    <div style="background-color: #1a1a1a; position: relative; margin-top: 0; padding-bottom: 3rem;">
+        <div style="text-align: center; padding: 3rem 3rem 0;">
+            <h1 class="font-serif" style="color: #bfdbfe; margin-bottom: 1rem; font-size: 3rem;">LUGAR</h1>
+            <h4 class="font-sans" style="font-size: 1.5rem; color: #ffffff; font-weight: 400; line-height: 1.4;">
+                C. Privada de Río Colorado S/N
+            </h4>
+            <h4 class="font-sans" style="font-size: 1.5rem; color: #ffffff; font-weight: 400; line-height: 1.4;">
+                Col. Granjas del Valle, Chihuahua, Chihuahua
+            </h4>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1748.9354330257363!2d-106.1627870286691!3d28.75327224286726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1777396497241!5m2!1ses-419!2smx" 
+                width="100%" height="600" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div style="display: flex; justify-content: center; margin-top: 30px; margin-bottom: 2rem;">
+            <a href="https://maps.app.goo.gl/xCiYr98XwE6qjfoF8" target="_blank" style="background-color: #6c4e37; color: white; padding: 10px 24px; border-radius: 40px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">Abrir en Google Maps</a>
+        </div>
+    <div style="text-align: center; padding: 3rem 3rem 0;">
+        <h1 class="font-serif" style="color: #bfdbfe; margin-bottom: 1rem; font-size: 3rem;">¡No olvides confirmar asistencia!</h1>
+    <div>
+
+    </div>
+    <!-- CUENTA REGRESIVA -->
+    <div style="background-color: #1a2b36; padding: 2rem 1rem; text-align: center;">
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 5px;">
+            <div class="countdown-box">
+                <div class="countdown-number"><span id="daysTens">1</span><span id="daysUnits">0</span></div>
+                <div class="countdown-label">Días</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-number"><span id="hoursTens">3</span><span id="hoursUnits">2</span></div>
+                <div class="countdown-label">Horas</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-number"><span id="minutesTens">1</span><span id="minutesUnits">1</span></div>
+                <div class="countdown-label">Minutos</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-number"><span id="secondsTens">456</span><span id="secondsUnits">1</span></div>
+                <div class="countdown-label">Segundos</div>
+            </div>
+        </div>
+    </div>
+
+<!-- CROQUIS COMO IMAGEN -->
+<div style="background-color: #1a1a1a; padding: 3rem 1.5rem;">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <h2 class="font-serif" style="color: #bfdbfe; margin-bottom: 2rem;">UBICACIÓN / CROQUIS</h2>
+        <img src="img/croquis3.jpg" alt="Croquis de ubicación" 
+             style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+        <div style="margin-top: 1rem;">
+            <a href="https://drive.google.com/uc?export=download&id=1oEhmcqJq7gsFLJT5D6gwXXu6hc7ThNAK" download style="background-color: #6c4e37; color: white; padding: 10px 24px; border-radius: 40px; text-decoration: none; font-weight: bold; display: inline-block;">
+                📥 Descargar Croquis (PDF)
+            </a>
+        </div>
+    </div>
+</div>
+
+    <!-- BOTÓN AGREGAR AL CALENDARIO -->
+    <div style="background-color: #1a1a1a; text-align: center; padding: 1rem 0 3rem;">
+        <h1 class="font-serif" style="color: #ffffff; margin-bottom: 1.5rem;">¡Te esperamos!</h1>
+        <div style="display: flex; justify-content: center;">
+            <add-to-calendar-button 
+                name="Cumpleaños Sorpresa de Manuel" 
+                startdate="2026-05-28" 
+                starttime="Salon Valle Luna" 
+                enddate="2026-05-28" 
+                endtime="18:00"
+                location="C. Privada de Río Colorado, Col. Granjas del Valle, Chihuahua, Chihuahua"
+                options="Apple,Google,Yahoo,iCal,Outlook.com"
+                timezone="America/Mexico_City"
+                style="--btn-bg: #6c4e37; --btn-text: white; --btn-font-family: 'Inter', sans-serif;">
+            </add-to-calendar-button>
+        </div>
+    </div>
+
+<!-- Script para Countdown dinámico y Add to Calendar -->
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2.7.2/assets/js/atcb.min.js" defer></script>
+<script>
+    // Función countdown actualizada hasta el 28 de mayo 2026, 12:24 hora local (México)
+    function updateCountdown() {
+        const targetDate = new Date(2026, 5, 20, 5, 0, 0); // Mayo es 4 (0-index)
+        const now = new Date();
+        const diff = targetDate - now;
+        
+        if (diff <= 0) {
+            document.getElementById('daysTens').innerText = '0';
+            document.getElementById('daysUnits').innerText = '0';
+            document.getElementById('hoursTens').innerText = '0';
+            document.getElementById('hoursUnits').innerText = '0';
+            document.getElementById('minutesTens').innerText = '0';
+            document.getElementById('minutesUnits').innerText = '0';
+            document.getElementById('secondsTens').innerText = '0';
+            document.getElementById('secondsUnits').innerText = '0';
+            return;
+        }
+        
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (86400000)) / (3600000));
+        const minutes = Math.floor((diff % 3600000) / 60000);
+        const seconds = Math.floor((diff % 60000) / 1000);
+        
+        // días dos dígitos
+        const daysStr = days.toString().padStart(2, '0');
+        document.getElementById('daysTens').innerText = daysStr[0];
+        document.getElementById('daysUnits').innerText = daysStr[1];
+        
+        const hoursStr = hours.toString().padStart(2, '0');
+        document.getElementById('hoursTens').innerText = hoursStr[0];
+        document.getElementById('hoursUnits').innerText = hoursStr[1];
+        
+        const minutesStr = minutes.toString().padStart(2, '0');
+        document.getElementById('minutesTens').innerText = minutesStr[0];
+        document.getElementById('minutesUnits').innerText = minutesStr[1];
+        
+        const secondsStr = seconds.toString().padStart(2, '0');
+        document.getElementById('secondsTens').innerText = secondsStr[0];
+        document.getElementById('secondsUnits').innerText = secondsStr[1];
+    }
+    
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+</script>
+</body>
+</html>

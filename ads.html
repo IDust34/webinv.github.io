@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Invitación de Cumpleaños - Manuel</title>
+    <!-- Google Fonts y estilos base -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Add to Calendar button CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2.7.2/assets/css/atcb.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons (opcional para algunos iconos) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <!-- my css -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<!-- Contenedor principal -->
+<div style="max-width: 100vw; overflow-x: hidden; background-color: #1a1a1a;">
+
+    <!-- SECCIÓN HERO: imagen de portada -->
+    <div style="position: relative; height: 70vh; background-color: #000; overflow: hidden;">
+        <img alt="Fondo cumpleaños" loading="lazy" 
+             src="https://ovjstvkjedyscwyfnoma.supabase.co/storage/v1/object/public/bloques/adca2cff-6cde-48cf-803f-d665bf4e535c/6ccfbda1-4591-4865-97e2-d9e2e20a13a2/fe8fc6ea-3b19-4827-a435-5bafabb0389c.jpeg"
+             style="width: 100%; height: 100%; object-fit: cover; object-position: center top;">
+        <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.4);"></div>
+        <div style="position: absolute; inset: 20px auto auto 50%; transform: translateX(-50%); text-align: center; width: 90%; z-index: 2;">
+            <p class="font-sans" style="color: #c7c9cc; margin-bottom: 10px; font-size: 2rem;">Cumpleaños</p>
+            <h1 class="font-serif" style="color: #e1e4ea; margin-bottom: 10px; font-size: 4.5rem; line-height: 1.2;">Manuel</h1>
+            <p class="font-sans" style="color: #e1e4ea; font-size: 2rem;">05/28/2026</p>
+            <p class="font-sans" style="color: #e1e4ea; font-size: 1.5rem;">12:24</p>
+        </div>
+    </div>
+
+    <!-- FRASE DIVERTIDA -->
+    <div style="background-color: #1a1a1a; padding: 3rem 1.5rem;">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h4 class="font-sans" style="font-size: 1.5rem; color: #e1e4ea; font-weight: 400; line-height: 1.4;">
+                "Estoy por cumplir 30, pero mi rodilla izquierda sigue creyendo que tiene 19… y mi hígado piensa que ya voy en 47."
+            </h4>
+            <p class="font-serif" style="color: #6c4e37; font-style: italic; font-size: 1.3rem; margin-top: 1rem;"><strong>- Quique, siempre joven.</strong></p>
+        </div>
+    </div>
+
+    <!-- POLAROID / FOTO -->
+    <div style="display: flex; justify-content: center; background-color: #1a1a1a; padding-bottom: 2rem;">
+        <div class="polaroid" style="background: white; max-width: 360px;">
+            <div class="polaroid-tape"></div>
+            <img alt="Foto Quique" 
+                 src="https://ovjstvkjedyscwyfnoma.supabase.co/storage/v1/object/public/bloques/adca2cff-6cde-48cf-803f-d665bf4e535c/e3f18f3f-2297-4e4a-aae6-202338d86fd5/e878ae96-b803-407e-ba2b-1b804fb22734.jpeg"
+                 style="width: 100%; height: auto; display: block; border-radius: 4px;">
+            <div class="font-serif" style="margin-top: 15px; text-align: center; font-size: 1.2rem; color: black;">By Quique. 📸</div>
+        </div>
+    </div>
+
+    <!-- MAPA Y UBICACIÓN -->
+    <div style="background-color: #1a1a1a; position: relative; margin-top: 0; padding-bottom: 1rem;">
+        <div style="text-align: center; padding: 2rem 1rem 0;">
+            <h2 class="font-serif" style="color: #6c4e37; margin-bottom: 0.5rem;">Party</h2>
+            <p class="font-sans" style="color: #e1e4ea; font-size: 1.1rem;">Puerto Vallarta Malecon, Paseo Díaz Ordaz, Centro, Puerto Vallarta, Jalisco, Mexico</p>
+        </div>
+        <iframe src="https://www.google.com/maps?q=20.6111652,-105.2346505&z=14&output=embed" 
+                width="100%" height="400" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div style="display: flex; justify-content: center; margin-top: -25px; margin-bottom: 2rem;">
+            <a href="https://www.google.com/maps?q=20.6111652,-105.2346505" target="_blank" style="background-color: #6c4e37; color: white; padding: 10px 24px; border-radius: 40px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">Abrir en Google Maps</a>
+        </div>
+    </div>
+
+    <!-- GALERÍA TIPO DECK (3D girando) -->
+    <div style="background-color: #1a1a1a; padding: 2rem 0 0;">
+        <div class="deck-container">
+            <div class="deck-card" style="transform: perspective(1500px) rotateY(-0.6deg) rotateZ(-6deg) scale(0.9); z-index: 3; left: -15%;">
+                <img src="https://ovjstvkjedyscwyfnoma.supabase.co/storage/v1/object/public/bloques/adca2cff-6cde-48cf-803f-d665bf4e535c/7a47b530-8649-49a2-8662-ff9a6a33c067/320eb9c7-c699-4367-af1b-af965e5297f6.png" alt="Gallery 1">
+            </div>
+            <div class="deck-card" style="transform: perspective(1500px) rotateY(0.8deg) rotateZ(8.6deg) scale(0.9); z-index: 2; right: -15%;">
+                <img src="https://ovjstvkjedyscwyfnoma.supabase.co/storage/v1/object/public/bloques/adca2cff-6cde-48cf-803f-d665bf4e535c/7a47b530-8649-49a2-8662-ff9a6a33c067/ac3d08dc-7577-442e-afbf-91327484b90b.png" alt="Gallery 2">
+            </div>
+            <div class="deck-card" style="transform: perspective(1500px) rotateY(0.58deg) rotateZ(5.8deg) scale(0.9); z-index: 1; top: 5%;">
+                <img src="https://ovjstvkjedyscwyfnoma.supabase.co/storage/v1/object/public/bloques/adca2cff-6cde-48cf-803f-d665bf4e535c/7a47b530-8649-49a2-8662-ff9a6a33c067/f3d4776f-86ab-47e8-82ea-1ac8b5989b18.jpeg" alt="Gallery 3">
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 1.5rem; margin-bottom: 2rem; background: rgba(30,58,95,0.6); width: 90%; margin-left: auto; margin-right: auto; padding: 12px; border-radius: 60px;">
+            <i class="bi bi-hand-index-thumb" style="font-size: 2rem; color: #e1e4ea; margin-right: 8px;"></i>
+            <p class="font-sans" style="color: #e1e4ea; display: inline-block; font-size: 1rem;">Desliza para ver más fotos</p>
+        </div>
+    </div>
+
+    <!-- CUENTA REGRESIVA -->
+    <div style="background-color: #1a1a1a; padding: 2rem 1rem; text-align: center;">
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 5px;">
+            <div class="countdown-box">
+                <div class="countdown-number"><span id="daysTens">3</span><span id="daysUnits">0</span></div>
+                <div class="countdown-label">Días</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-number"><span id="hoursTens">0</span><span id="hoursUnits">2</span></div>
+                <div class="countdown-label">Horas</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-number"><span id="minutesTens">3</span><span id="minutesUnits">1</span></div>
+                <div class="countdown-label">Minutos</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-number"><span id="secondsTens">1</span><span id="secondsUnits">1</span></div>
+                <div class="countdown-label">Segundos</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN CLIMA -->
+    <div style="background-color: #1a1a1a; padding: 1rem 1.5rem 3rem;">
+        <h2 class="font-serif" style="color: #6c4e37; text-align: center; margin-bottom: 0.5rem;">Clima</h2>
+        <p class="font-sans" style="text-align: center; color: #e1e4ea; margin-bottom: 1rem;">Puerto Vallarta Malecon, Centro, Jalisco, Mexico</p>
+        <div class="weather-card">
+            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <span style="font-size: 3rem;">☁️</span>
+                    <h2 class="font-serif" style="font-size: 2.8rem; color: #e1e4ea;">23.5°</h2>
+                </div>
+                <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                    <div><p class="font-sans" style="font-size: 0.75rem; color: #ccc;">Viento máximo</p><p class="font-serif" style="font-weight: bold;">12.2 km/h</p></div>
+                    <div><p class="font-sans" style="font-size: 0.75rem; color: #ccc;">Precipitación</p><p class="font-serif" style="font-weight: bold;">0 mm</p></div>
+                    <div><p class="font-sans" style="font-size: 0.75rem; color: #ccc;">Humedad</p><p class="font-serif" style="font-weight: bold;">67%</p></div>
+                </div>
+            </div>
+            <div style="margin-top: 1.5rem;">
+                <p class="font-sans" style="margin-bottom: 0.8rem; color: #ddd;">Previsión horaria</p>
+                <div class="hourly-forecast">
+                    <div class="hour-item"><p>12:00</p><span>☁️</span><p>27.7°</p></div>
+                    <div class="hour-item"><p>13:00</p><span>☁️</span><p>28.0°</p></div>
+                    <div class="hour-item"><p>14:00</p><span>☀️</span><p>27.9°</p></div>
+                    <div class="hour-item"><p>15:00</p><span>☀️</span><p>27.8°</p></div>
+                    <div class="hour-item"><p>16:00</p><span>☀️</span><p>27.2°</p></div>
+                    <div class="hour-item"><p>17:00</p><span>☀️</span><p>26.8°</p></div>
+                    <div class="hour-item"><p>18:00</p><span>☀️</span><p>24.8°</p></div>
+                    <div class="hour-item"><p>19:00</p><span>☀️</span><p>24.0°</p></div>
+                    <div class="hour-item"><p>20:00</p><span>☀️</span><p>22.3°</p></div>
+                    <div class="hour-item"><p>21:00</p><span>☀️</span><p>20.6°</p></div>
+                    <div class="hour-item"><p>22:00</p><span>☀️</span><p>20.7°</p></div>
+                    <div class="hour-item"><p>23:00</p><span>☀️</span><p>20.3°</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTÓN AGREGAR AL CALENDARIO -->
+    <div style="background-color: #1a1a1a; text-align: center; padding: 1rem 0 3rem;">
+        <h2 class="font-serif" style="color: #e1e4ea; margin-bottom: 1.5rem;">¡Te esperamos!</h2>
+        <div style="display: flex; justify-content: center;">
+            <add-to-calendar-button 
+                name="Cumpleaños de Manuel" 
+                startdate="2026-05-28" 
+                starttime="12:24" 
+                enddate="2026-05-28" 
+                endtime="18:00"
+                location="Puerto Vallarta Malecon, Paseo Díaz Ordaz, Centro, Puerto Vallarta, Jalisco, Mexico"
+                options="Apple,Google,Yahoo,iCal,Outlook.com"
+                timezone="America/Mexico_City"
+                style="--btn-bg: #6c4e37; --btn-text: white; --btn-font-family: 'Inter', sans-serif;">
+            </add-to-calendar-button>
+        </div>
+    </div>
+
+    <!-- FOOTER / CRÉDITOS INVITIO -->
+    <footer>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap;">
+            <span class="font-sans" style="color: #aaa;">Esta invitación fue creada con</span>
+            <div style="position: relative; width: 100px; height: 30px; display: inline-block;">
+                <img alt="Invitio" src="https://ovjstvkjedyscwyfnoma.supabase.co/storage/v1/object/public/bloques/watermark/logo-watermark-white.png?t=2023" style="height: 100%; width: auto; object-fit: contain;" onerror="this.src='https://via.placeholder.com/100x30?text=Invitio'">
+            </div>
+            <a href="/es-MX" style="color: #c7a473; text-decoration: none; font-family: 'Inter', sans-serif;">Crea la tuya gratis aquí</a>
+        </div>
+    </footer>
+</div>
+
+<!-- Script para Countdown dinámico y Add to Calendar -->
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2.7.2/assets/js/atcb.min.js" defer></script>
+<script>
+    // Función countdown actualizada hasta el 28 de mayo 2026, 12:24 hora local (México)
+    function updateCountdown() {
+        const targetDate = new Date(2026, 4, 28, 12, 24, 0); // Mayo es 4 (0-index)
+        const now = new Date();
+        const diff = targetDate - now;
+        
+        if (diff <= 0) {
+            document.getElementById('daysTens').innerText = '0';
+            document.getElementById('daysUnits').innerText = '0';
+            document.getElementById('hoursTens').innerText = '0';
+            document.getElementById('hoursUnits').innerText = '0';
+            document.getElementById('minutesTens').innerText = '0';
+            document.getElementById('minutesUnits').innerText = '0';
+            document.getElementById('secondsTens').innerText = '0';
+            document.getElementById('secondsUnits').innerText = '0';
+            return;
+        }
+        
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (86400000)) / (3600000));
+        const minutes = Math.floor((diff % 3600000) / 60000);
+        const seconds = Math.floor((diff % 60000) / 1000);
+        
+        // días dos dígitos
+        const daysStr = days.toString().padStart(2, '0');
+        document.getElementById('daysTens').innerText = daysStr[0];
+        document.getElementById('daysUnits').innerText = daysStr[1];
+        
+        const hoursStr = hours.toString().padStart(2, '0');
+        document.getElementById('hoursTens').innerText = hoursStr[0];
+        document.getElementById('hoursUnits').innerText = hoursStr[1];
+        
+        const minutesStr = minutes.toString().padStart(2, '0');
+        document.getElementById('minutesTens').innerText = minutesStr[0];
+        document.getElementById('minutesUnits').innerText = minutesStr[1];
+        
+        const secondsStr = seconds.toString().padStart(2, '0');
+        document.getElementById('secondsTens').innerText = secondsStr[0];
+        document.getElementById('secondsUnits').innerText = secondsStr[1];
+    }
+    
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+</script>
+</body>
+</html>
