@@ -98,7 +98,7 @@
         }
         .countdown-number {
             display: flex;
-            background-color: #1e3a5f;
+            background-color: #00eb2b;
             border-radius: 8px;
             overflow: hidden;
         }
@@ -108,8 +108,8 @@
             align-items: center;
             width: 3.2rem;
             height: 5rem;
-            background-color: #000000;
-            color: #bfdbfe;
+            background-color: #275c85;
+            color: #ffffff;
             font-weight: bold;
             font-size: 2.3rem;
             font-family: 'Playfair Display', serif;
